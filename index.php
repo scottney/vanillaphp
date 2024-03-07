@@ -1,5 +1,5 @@
 <?php
-include("views/sections/header.php");
+require("views/sections/header.php");
 ?>
 
 <style type="text/css">
@@ -59,11 +59,11 @@ include("views/sections/header.php");
 
                                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
                                         <li class="nav-item">
-                                            <a class="nav-link active text-white" aria-current="page" href="views/pages/guest/register/index.php">Register</a>
+                                            <a class="nav-link active text-white" aria-current="page" href="views/pages/guest/register/index.php" target="_blank">Register</a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a class="nav-link text-white" href="views/pages/guest/login/index.php">Login</a>
+                                            <a class="nav-link text-white" href="views/pages/guest/login/index.php" target="_blank">Login</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -83,7 +83,7 @@ include("views/sections/header.php");
                     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 p-0">
 
                         <?php
-                            include("views/sections/footer.php");
+                            require("views/sections/footer.php");
                         ?>
 
                     </div>
